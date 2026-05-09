@@ -164,6 +164,18 @@ Panel members are selected to be ideologically diverse. The selection process is
 
 The panel exists to scale dispute handling, not to replace maintainer judgment on architectural decisions.
 
+## Rubric-level artifacts beyond the rubric document
+
+Some artifacts have rubric-level influence on the engine's analysis even though they are not the rubric document itself. These are governed under the same procedures as the rubric.
+
+**The canonical formulation library.** Referenced in the strawman pattern (see `RUBRIC.md`), this is a maintained set of defensible formulations of common positions on contested topics. Because the library influences what the engine considers a strawman, it has substantial bias-risk surface area. Additions and modifications to the library follow the Level 4 amendment process, including cross-faction validation. The library is open source under CC BY-SA 4.0.
+
+**Evaluation datasets.** The datasets used to verify the engine's behavior define what "working correctly" means in practice. Curation decisions for these datasets are governed at the rubric level: the inclusion criteria are public, contested cases are reviewed adversarially, and changes to inclusion criteria follow the Level 3 or Level 4 amendment procedure depending on scope.
+
+**Fine-tuned model weights.** Model weights produced by the project embody analytical decisions. The training data, training configurations, and evaluation results are public. Significant changes (replacing a base model, retraining on substantially different data) follow Level 4 amendment procedures.
+
+The principle behind these treatments: any artifact whose curation could shift the engine's analysis in politically asymmetric directions is governed at the rubric level. A project that opens its rubric while keeping the canonical formulation library private has not actually opened its rubric.
+
 ## What governance does not do
 
 **It does not censor.** The project does not remove content from platforms, advise platforms to remove content, or otherwise act on content beyond producing analytical labels. The governance of the project is governance of its own analytical claims, not governance of speech.
