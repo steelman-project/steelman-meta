@@ -1,5 +1,7 @@
 # The Steelman Rubric
 
+<!-- RUBRIC_VERSION: 0.2 -->
+
 > **Status:** Draft v0.2. A starter rubric — deliberately small, with categories chosen for tractability and structural neutrality. Grows through the amendment procedure described in `GOVERNANCE.md`, not through ad-hoc additions.
 
 ## Changelog
