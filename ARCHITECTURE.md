@@ -193,7 +193,7 @@ steelman-meta/                      (this repo — foundational documents)
   validation-log/
 
 steelman-core/                      (the analytical engine)
-  rubric-impl/  (rubric as code, in sync with steelman-meta/RUBRIC.md)
+  rubric_impl/  (rubric as code, in sync with steelman-meta/RUBRIC.md)
   evaluation/   (evaluation datasets, public)
 
 steelman-read/                      (thread analyzer, phasekit-scaffolded)

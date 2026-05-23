@@ -15,7 +15,7 @@ The documents are deliberately ordered by stability. Edit accordingly:
 | Document | Stability | Meaning for edits |
 |---|---|---|
 | `MISSION.md` | Foundational; changes only via Level 4 amendment | Default action when in doubt is to leave it unchanged. |
-| `RUBRIC.md` | Foundational; analytical constitution | Must stay version-synced with `steelman-core/rubric-impl/` once that exists. A mismatch is treated as a deployment-blocking error. |
+| `RUBRIC.md` | Foundational; analytical constitution | Must stay version-synced with `steelman-core/rubric_impl/` once that exists. A mismatch is treated as a deployment-blocking error. |
 | `ARCHITECTURE.md` | Deliberate but more revisable than mission/rubric | Changes are recorded in the validation log. |
 | `GOVERNANCE.md` | Procedures are themselves amendable, only via the procedures they describe | |
 | `LICENSING.md` | Tightening (more open) is unconstrained; loosening requires Level 4 | |
